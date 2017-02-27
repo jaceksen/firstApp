@@ -17,9 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView txtDisplay= (TextView) findViewById(R.id.txtDisplay);
         txtDisplay.setText("Tekst from Main.");
-        //button2
+        //button2 (test)
 //        button2.setText("Tekst z layoutu");
-
         Button button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
